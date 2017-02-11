@@ -1,0 +1,113 @@
+<!doctype html>
+<html class="no-js" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Foundation | Welcome</title>
+	 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Oswald'>
+  <script src="http://cdnjs.cloudflare.com/ajax/libs/moment.js/2.0.0/moment.min.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+ 
+    <link rel="stylesheet" href="css/foundation.css">
+	<link rel="stylesheet" type="text/css" href="css/slick.css">
+  </head>
+  <body>
+    
+    <div class="off-canvas-wrapper">
+      <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
+
+		<div class="off-canvas position-left reveal-for-large" id="my-info" data-off-canvas data-position="left">
+			
+		<img class="thumbnail_logo" src="stylenanda_logo_white.png">	
+		
+		<div id="clock">
+		<div id="day" class="week_todays"></div>
+		<div class="weekdays"></div>
+		</div>
+
+			<div class="clock">
+				
+				<div class="digit tenhour">
+					<span class="base"></span>
+				</div>
+
+
+				<div class="digit hour">
+					<span class="base"></span>
+					<span class="colron"> : </span>
+				</div>
+			
+			
+			
+				<div class="digit tenmin">
+					<span class="base"></span>
+					
+				</div>
+
+				<div class="digit min">
+					<span class="base"></span>
+					<span class="colron"> : </span>
+				</div>
+			
+				<div class="digit tensec">
+					<span class="base"></span>
+				</div>
+
+				<div class="digit sec">
+					<span class="base"></span>
+
+				</div>
+			
+			</div>
+        </div>
+
+        <div class="off-canvas-content" data-off-canvas-content>
+          <div class="callout primary">
+            <div class="row column">
+				<section class="regular slider">
+					<div>
+					  <img src="1.jpg">
+					</div>
+					
+					<div>
+					  <img src="2.jpg">
+					</div>
+					<div>
+					  <img src="3.jpg">
+					</div>
+				</section>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="js/slick.js" type="text/javascript" charset="utf-8"></script>
+    <script src="http://dhbhdrzi4tiry.cloudfront.net/cdn/sites/foundation.js"></script>
+	<script src="js/index.js"></script>
+    <script>
+      $(document).foundation();
+    </script>
+	
+	<script type="text/javascript">
+    $(document).on('ready', function() {
+      $(".regular").slick({
+        dots: false,
+        infinite: true,
+        slidesToShow: 1,
+        slidesToScroll: 1,
+		autoplay: true,
+		autoplaySpeed: 2000,
+      });
+    });
+  </script>
+  
+  
+  </body>
+</html>
+
+
+    
